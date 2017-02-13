@@ -1,0 +1,22 @@
+[Sun Feb 12 15:19:53.848340 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729] mod_wsgi (pid=2287): Target WSGI script '/var/www/djangular/djangular/djangular/wsgi.py' cannot be loaded as P$
+[Sun Feb 12 15:19:53.848465 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729] mod_wsgi (pid=2287): Exception occurred processing WSGI script '/var/www/djangular/djangular/djangular/wsgi.py$
+[Sun Feb 12 15:19:53.848552 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729] Traceback (most recent call last):
+[Sun Feb 12 15:19:53.848618 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]   File "/var/www/djangular/djangular/djangular/wsgi.py", line 19, in <module>
+[Sun Feb 12 15:19:53.848760 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]     application = get_wsgi_application()
+[Sun Feb 12 15:19:53.848783 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+[Sun Feb 12 15:19:53.848816 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]     django.setup(set_prefix=False)
+[Sun Feb 12 15:19:53.848833 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+[Sun Feb 12 15:19:53.848865 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sun Feb 12 15:19:53.848877 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Sun Feb 12 15:19:53.848914 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]     self._setup(name)
+[Sun Feb 12 15:19:53.848925 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Sun Feb 12 15:19:53.848939 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]     self._wrapped = Settings(settings_module)
+[Sun Feb 12 15:19:53.848949 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Sun Feb 12 15:19:53.848967 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Sun Feb 12 15:19:53.848979 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+[Sun Feb 12 15:19:53.849027 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729]     __import__(name)
+[Sun Feb 12 15:19:53.849091 2017] [wsgi:error] [pid 2287] [client 73.222.36.67:64729] ImportError: No module named djangular.settings
+
+
+
+
